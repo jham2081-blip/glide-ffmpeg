@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# example / test artifacts
+examples/out/
+examples/sample.png
+sample.png
+out.mp4
+*.mp4
+!docs/**/*.mp4

@@ -1,0 +1,7 @@
+# Glide dependencies.
+# For GPU (strongly recommended) install a CUDA build of torch from https://pytorch.org
+# e.g.:  pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch>=2.1
+pillow>=9.0
+numpy>=1.23
+# ffmpeg is a separate binary — install it and put it on PATH, or set GLIDE_FFMPEG.
