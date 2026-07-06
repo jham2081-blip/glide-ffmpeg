@@ -8,6 +8,7 @@ cd examples
 python make_sample_image.py        # (optional) just make the test image
 python example_basic.py            # push-in, push-out, pan-left, pan-right
 python example_easings.py          # same push-in with linear / cubic / sine easing
+python make_before_after.py        # side-by-side BEFORE (zoompan) vs AFTER (Glide) clips
 python compare_vs_zoompan.py       # THE JUDGE: Glide vs ffmpeg zoompan, with numbers
 ```
 

@@ -11,4 +11,6 @@ examples/sample.png
 sample.png
 out.mp4
 *.mp4
+# ...but DO ship the committed demo clips
+!assets/**/*.mp4
 !docs/**/*.mp4

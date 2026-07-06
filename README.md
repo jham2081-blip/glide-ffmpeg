@@ -32,6 +32,25 @@ only *masks* the stepping, it never removes it, and it is expensive.
 - **Easing** (`linear` / `cubic` / `sine`) → optional ease-in-out for a cinematic
   "camera settle". Aesthetic only; does not affect smoothness.
 
+## See the difference (before / after)
+
+Side-by-side, **left = FFmpeg `zoompan`** (given a fair 4× supersample), **right = Glide**.
+On a fast move, `zoompan`'s integer stepping strobes while Glide stays smooth:
+
+![Before vs after — fast push](assets/demos/before_after_fast.gif)
+
+Full-quality clips (regenerate any of them with
+[`examples/make_before_after.py`](examples/make_before_after.py)):
+
+| issue | clip |
+|---|---|
+| **Pan** stutter | [`assets/demos/ba_pan.mp4`](assets/demos/ba_pan.mp4) |
+| **Zoom** (push-in) shudder | [`assets/demos/ba_zoom.mp4`](assets/demos/ba_zoom.mp4) |
+| **Fast move** strobing | [`assets/demos/ba_fast.mp4`](assets/demos/ba_fast.mp4) |
+
+*(Demo footage uses neutral photoreal images in [`assets/`](assets/) — mountain / city /
+library — generated for this repo, not anyone's production content.)*
+
 ## Benchmark (reproduce it yourself)
 
 Run [`examples/compare_vs_zoompan.py`](examples/compare_vs_zoompan.py). It renders the
