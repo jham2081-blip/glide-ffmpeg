@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "doctrine/ENGINEERING_DOCTRINE.md",
+      "git_blob_sha1": "21ea3b6ae5737a43d243b1ff4c89e95e5a440fd6"
+    },
+    {
+      "path": "doctrine/DECISION_FRAMEWORK.md",
+      "git_blob_sha1": "f7ee9ec61489cafcdd165f220d218018eb45d563"
+    },
+    {
+      "path": "doctrine/AI_COLLABORATION.md",
+      "git_blob_sha1": "d53d371b7cbb72f172462b6ef951c6a4e7eace92"
+    },
+    {
+      "path": "skills/orienting-in-a-codebase.md",
+      "git_blob_sha1": "5d080236750e571326878b86c584a2c4d0eb78b4"
+    },
+    {
+      "path": "skills/designing-a-change.md",
+      "git_blob_sha1": "7f65f80584c5000f694e7518ff93d1c8e1dd589a"
+    },
+    {
+      "path": "skills/implementing-changes.md",
+      "git_blob_sha1": "9dcb893fbc2c0b406cd60982d75777f44a5ad703"
+    },
+    {
+      "path": "skills/testing.md",
+      "git_blob_sha1": "760baa023f522944b4373d9415ce63da3cd423bf"
+    },
+    {
+      "path": "skills/debugging.md",
+      "git_blob_sha1": "c2ef062c02bc5c057865cea581aa902aa16d7a42"
+    }
+  ]
+}
