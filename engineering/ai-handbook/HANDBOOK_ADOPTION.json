@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "source_repository": "jham2081-blip/ai-agent-skills",
+  "source_commit": "f1c84c8e9b7d385e711d7a978263c67adee16c92",
+  "profile": "software-standard",
+  "files": [
+    {
+      "path": "doctrine/ENGINEERING_DOCTRINE.md",
+      "git_blob_sha1": "21ea3b6ae5737a43d243b1ff4c89e95e5a440fd6"
+    },
+    {
+      "path": "doctrine/DECISION_FRAMEWORK.md",
+      "git_blob_sha1": "f7ee9ec61489cafcdd165f220d218018eb45d563"
+    },
+    {
+      "path": "doctrine/AI_COLLABORATION.md",
+      "git_blob_sha1": "d53d371b7cbb72f172462b6ef951c6a4e7eace92"
+    },
+    {
+      "path": "skills/orienting-in-a-codebase.md",
+      "git_blob_sha1": "5d080236750e571326878b86c584a2c4d0eb78b4"
+    },
+    {
+      "path": "skills/designing-a-change.md",
+      "git_blob_sha1": "7f65f80584c5000f694e7518ff93d1c8e1dd589a"
+    },
+    {
+      "path": "skills/implementing-changes.md",
+      "git_blob_sha1": "9dcb893fbc2c0b406cd60982d75777f44a5ad703"
+    },
+    {
+      "path": "skills/testing.md",
+      "git_blob_sha1": "760baa023f522944b4373d9415ce63da3cd423bf"
+    },
+    {
+      "path": "skills/debugging.md",
+      "git_blob_sha1": "c2ef062c02bc5c057865cea581aa902aa16d7a42"
+    },
+    {
+      "path": "skills/code-review.md",
+      "git_blob_sha1": "bd74395e25ed129accd2fccce65c186891c09ceb"
+    },
+    {
+      "path": "skills/writing-documentation.md",
+      "git_blob_sha1": "dc0531b2b3542cd453054d936f6e29415f098ac0"
+    },
+    {
+      "path": "skills/project-handoff.md",
+      "git_blob_sha1": "328d83f6ce8893bd7415a065fc4dfac926780ca8"
+    },
+    {
+      "path": "checklists/pre-merge.md",
+      "git_blob_sha1": "ffc86f2b87d6659c73eb9ec4b4b1d83da647dcbe"
+    },
+    {
+      "path": "checklists/session-end.md",
+      "git_blob_sha1": "cced5b6cb52b97d1c07735a452f734479ed1f329"
+    },
+    {
+      "path": "field-guides/openai-gpt-6.md",
+      "git_blob_sha1": "e735a43b064f45b8ad0b1fc64f061cbb996a9f38"
+    }
+  ]
+}
